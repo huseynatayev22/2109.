@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:  none;
+}
+.wrapper{
+width: 80%;
+margin: auto;
+position: relative;
+}
+.header{
+    background: #000;
+    opacity: 0.8;
+    z-index: 200;
+    width: 100%;
+  
+    color: #fff ;
+}
+.header .logo{
+    float: left;
+
+}
+.header .menu{
+float: right;
+}
+.header .menu .dropmenu{
+    float: left;
+    list-style: none;
+    padding: 20px 15px;
+    position: relative;
+
+}
+.header .menu li a{
+    color: #fff;
+    
+}
+.header .menu .bigdropmenu{
+    float: left;
+    padding: 20px 15px;
+    list-style: none;
+}
+.header .menu .dropmenu:hover .dropdown{
+    display: block;
+}
+header .menu li:hover a{
+    color: red;
+    
+}
+.clear{
+    clear: both;
+}
+.header .menu .dropmenu li a{
+    color: #000;
+}
+
+.header .menu .dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 2px 11px 20px 0px #cccccc;
+    list-style: none;
+    display: none;
+}
+.header .menu .dropdown li{
+    padding: 12px;
+}
+.header .menu .dropdown li a{
+    color: #000;
+}
+
+.portalldrop{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    box-shadow: 2px 11px 20px 0px white;
+    display: none;
+    background: #fff;
+}
+.portalldrop .port-item{
+    float: left;
+    width: 25%;
+}
+.portalldrop .port-item li{
+    padding: 12px;
+}
+.portalldrop{
+    list-style: none;
+}
+.bigdropmenu:hover .portalldrop{
+    display: block;
+}
+.header .menu .dropmenu:hover .dropdown{
+    display: block;
+    background: #fff;
+}
+.shortcodes{
+    background: url(foto//2.jpg);
+    background-size:  cover;
+    background-repeat:  no-repeat;
+    background-position: center center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+position: relative;
+padding: 250px 0;
+}
+.shortcodes .short-content{
+position: relative;
+
+}
+
+.shortcodes h1{
+    font-size: 4.3em;
+}
+.shortcodes p{
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+#creative .creativ-left,
+#creative .creative-text{
+    width: 80%;
+    float: left;
+}
+#creative .creativ-right{
+    width: 20%;
+    float: left;
+}
+#creative .creative-icon{
+    width: 15%;
+    float: left;
+}
+#creative .creativ-left .creative-item{
+    width: 50%;
+    float: left;
+    margin-bottom: 15px;
+}
+#creativ .creative-icon{
+    padding: 16px 10px;
+    border-radius: 50%;
+    border: 1px solid red; 
+    
+}
